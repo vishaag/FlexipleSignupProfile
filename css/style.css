@@ -1,0 +1,48 @@
+body{
+	background-color: #F6F6F6;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.titletext{
+
+	-webkit-transform: rotate(90deg);	
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	/*transform-origin: top left;*/
+	font-size: 2em;
+
+	border-bottom:0.1em solid #FA8255;
+	color:#3C3C3B;
+}
+
+
+
+.helptext{
+	color:#FA8255;
+	/*padding-top: 5.2em;*/
+}
+
+@media only screen and (max-width: 600px) {
+	.helptext{
+		padding-top: 0em;
+	}
+	.titletext{
+
+	-webkit-transform: rotate(0deg);	
+	-moz-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	font-size: 2em;
+
+}
+
+}
+
