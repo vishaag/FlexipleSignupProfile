@@ -15,18 +15,17 @@ body{
 	-ms-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
 	transform: rotate(90deg);
-	/*transform-origin: top left;*/
 	font-size: 2em;
-
 	border-bottom:0.1em solid #FA8255;
 	color:#3C3C3B;
 }
 
 
-
 .helptext{
 	color:#FA8255;
-	/*padding-top: 5.2em;*/
+	border: 1px solid #C6C6C6;
+	padding: 0.6em;
+	border-radius: 1em; 
 }
 
 @media only screen and (max-width: 600px) {
@@ -34,14 +33,12 @@ body{
 		padding-top: 0em;
 	}
 	.titletext{
-
 	-webkit-transform: rotate(0deg);	
 	-moz-transform: rotate(0deg);
 	-ms-transform: rotate(0deg);
 	-o-transform: rotate(0deg);
 	transform: rotate(0deg);
 	font-size: 2em;
-
 }
 
 }
